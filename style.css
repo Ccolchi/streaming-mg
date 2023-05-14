@@ -24,7 +24,7 @@ header .logotipo {
     font-weight: normal;
 
 }
-
+/*--------------------Menú colapsable de header (navbar)---------------------*/
 .navbar a {
     font-size: 1rem;
     border-radius:.5rem;
@@ -156,7 +156,7 @@ transition: .2s ease all;
 
 
 
-/* ------------------------- Media Queries para pasar de Carousel a Grid ---------------------- */
+/* ------------------------- Media Queries para pasar de Carousel a Grid que inicia a los 600px ---------------------- */
 
 @media screen and (max-width: 600px) {
 	header .logotipo {
