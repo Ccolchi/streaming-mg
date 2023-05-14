@@ -25,8 +25,6 @@ header .logotipo {
 
 }
 
-
-
 .navbar a {
     font-size: 1rem;
     border-radius:.5rem;
@@ -63,25 +61,12 @@ header .logotipo {
 /*--------------------Imagen pelicula portada---------------------*/
 
 .pelicula-portada{
-  /* font-size: 16px;
-    min-height: 35em;
-    background: linear-gradient(rgba(0, 0, 0, 0.20) 0%, rgba(0,0,0,.20) 100%),url("img/backdrop1.jpg");
-    background-position:center center;
-    background-size:cover;
-    height:35em;
-    position: relative;
-    margin-top: 0;
-    padding: 0px 0; */
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, 0.20) 0%, rgba(0,0,0,.20) 100%),url("img/backdrop1.jpg"); 
     background-position:center center; 
     min-height: 35em;
     height:35em;
     background-size:cover;
-
-
-
-
 }
 
 .btn-acceso{
