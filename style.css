@@ -1,0 +1,262 @@
+
+body{
+    background-color:#000;
+}
+
+
+header .row{
+    width: 90%;
+	margin: auto;
+    padding: 20px 0;
+}
+
+header .contenedor-menu{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+header .logotipo {
+	color:red;
+	font-size: 40px;
+    font-weight: normal;
+
+}
+
+
+
+.navbar a {
+    font-size: 1rem;
+    border-radius:.5rem;
+    padding: .25rem;
+    color:#fff;
+}
+
+
+.navbar a.activo,
+.navbar a:hover{
+    border-radius: 4px;
+    color:#000 ;
+    background:#fff;
+}
+
+ .icons i{
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align:center;
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #fff;
+    background:#198754;
+}
+
+.icons i:hover{
+    color:#000 ;
+    background:#fff;
+}
+
+/*--------------------Imagen pelicula portada---------------------*/
+
+.pelicula-portada{
+  /* font-size: 16px;
+    min-height: 35em;
+    background: linear-gradient(rgba(0, 0, 0, 0.20) 0%, rgba(0,0,0,.20) 100%),url("img/backdrop1.jpg");
+    background-position:center center;
+    background-size:cover;
+    height:35em;
+    position: relative;
+    margin-top: 0;
+    padding: 0px 0; */
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.20) 0%, rgba(0,0,0,.20) 100%),url("img/backdrop1.jpg"); 
+    background-position:center center; 
+    min-height: 35em;
+    height:35em;
+    background-size:cover;
+
+
+
+
+}
+
+.btn-acceso{
+    position:relative;
+    top:20px;
+    right: 10px;
+}
+
+.pelicula-portada .descripcion{
+    position:relative;
+    top:240px;
+    right: 10px;
+} 
+
+
+
+/*--------------------Carousel de peliculas---------------------*/
+
+/*contenedor principal y flechas */
+
+.contenedor-recomendadas .contenedor-principal{
+
+    display: flex;
+	align-items: center;
+	position: relative;
+}
+.contenedor-recomendadas .contenedor-principal .flecha-izquierda,
+.contenedor-recomendadas .contenedor-principal .flecha-derecha{
+position: absolute;
+border: none;
+background: rgb(0,0,0,0.3);
+font-size: 40px;
+height: 50%;
+top: calc(50% -25%);
+line-height: 40px;
+width: 50px;
+color:#fff;
+cursor: pointer;
+z-index: 1000;
+transition: .2s ease all;
+}
+.contenedor-recomendadas .contenedor-principal .flecha-izquierda{
+    left: 0;
+}
+.contenedor-recomendadas .contenedor-principal .flecha-derecha{
+    right: 0;
+}
+.contenedor-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.contenedor-recomendadas .contenedor-principal .flecha-derecha:hover{
+    background: rgba(0,0,0,.9);
+}
+
+/*--------------------------------------Carousel*--------------------------------*/
+
+.peliculas-recomendadas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.contenedor-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.contenedor-recomendadas .contenedor-carousel .carousel .pelicula{
+    min-width: 20%;
+    transition: .3s ease all;
+    box-shadow:rgb(0,0,0,.3);
+}
+.contenedor-recomendadas .contenedor-carousel .carousel .pelicula img{
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.contenedor-recomendadas .contenedor-carousel .carousel .pelicula img:hover{
+
+    border-style: solid;
+    border-color:gold;
+    transform-origin: center;   
+}
+
+
+
+
+/* ------------------------- Media Queries para pasar de Carousel a Grid ---------------------- */
+
+@media screen and (max-width: 600px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 40px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+
+    .contenedor-recomendadas .contenedor-carousel{
+        overflow: visible;
+    }
+
+     .contenedor-recomendadas .contenedor-carousel .carousel{
+
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+
+    }
+    .contenedor-recomendadas .contenedor-principal .flecha-izquierda,
+    .contenedor-recomendadas .contenedor-principal .flecha-derecha{
+        display: none;
+    }
+
+
+    .contenedor-recomendadas .contenedor-titulo h4{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color:gold 
+    }
+
+    .row-12{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #000;
+
+    }
+    .row-12 .contenedor-busqueda{
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        justify-content:start;
+    }
+
+    .row-12 .contenedor-busqueda .form-control{
+        width: 1000%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .row-12 .contenedor-busqueda .btn{
+        padding: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .pelicula-portada .descripcion{
+        position:relative;
+        top:85px;
+        left: 20px;
+        font-size: 10px;
+} 
+
+    .pelicula-portada{
+        font-size: 8px;
+        min-height: 35em;
+        height:15em;
+        margin-top: 0;
+        padding: 0px 0;
+  }
+    footer i{
+        padding: 15px;
+
+    }
+}
