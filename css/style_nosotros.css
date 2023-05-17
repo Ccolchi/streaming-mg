@@ -1,0 +1,60 @@
+*{
+    padding: 0 ;
+   
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+body{
+    background: url(../img/lenguaje-programacion.jpg) no-repeat;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+.box {
+    background: rgba(255, 252, 252, 0.753);
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 0 rgba(0, 0, 0, 0.945) , 1px 0 rgb(0, 0, 0);
+    width: 500px;
+    margin-top: 10px;
+    margin:0 auto;
+    text-align: center;
+  
+}
+.box-img {
+    border-radius: 50%;
+    width: 100px;
+}
+.box h1 {
+    font-size: 47px;
+    letter-spacing: 2px;
+    margin: 30px 0 20px;
+
+}
+.box h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow: 1px 0 rgba(255, 153, 0, 0.945) , 1px 0 rgb(0, 0, 0);
+    
+}
+.box p {
+    margin-bottom: 50px;
+} 
+
+.formulario{
+    background: rgba(0, 0, 0, 0.884);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 px rgba(0, 0, 0, 0.692);
+color: white;}
+
+
+   
+
+
+

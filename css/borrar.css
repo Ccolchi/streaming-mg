@@ -1,0 +1,17 @@
+.btn-suscribir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: .3em;
+    margin: auto;  
+    width: 10%;
+    height: 40px;
+    background-color: #5d5b5d96;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+
+}

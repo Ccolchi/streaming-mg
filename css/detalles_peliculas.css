@@ -1,0 +1,97 @@
+
+
+
+
+.pelicula-portada{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.20) 0%, rgba(0,0,0,.20) 100%),url("../img/avatar_water_way.jpg"); 
+    background-position:center center; 
+    min-height: 35em;
+    height:35em;
+    background-size:cover;
+
+}
+
+.pelicula-portada .col{
+    position: relative;
+    top: 33vh;
+}
+
+.portada-poster{
+    
+    position: relative;
+    width: 25vh;
+    top: 3vh;
+    left: 25em;
+}
+
+.pelicula-portada .pelicula-overview{
+    position:relative;
+    top:26vh;
+    left:6vw ;
+    font-size: 1em;
+}
+
+.pelicula-portada .portada-titulo-pelicula{
+    position: relative;
+    top:3vh;
+}
+
+.btn-play{
+    width: 36em;
+    position:relative;
+    top:2vh;
+    right:4em;  
+}
+
+.btn-play .btn{
+    margin: 3px;
+}
+
+.pelicula-portada .btn-volver a{
+    position: relative;
+    top: 1.25em;
+    left: 1.25em;
+    color: #fff;
+}
+.pelicula-info .pelicula-resumen{
+    position:relative;
+    top: 4vh;
+    left:19.1vw ;
+    font-size: 1.2em;
+
+}
+
+
+.elenco-container,
+.boton-volver{
+    margin-bottom: 3em;
+}
+
+.elenco-container a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5em;
+}
+
+
+.boton-volver a{
+    font-size: 2em;
+    color:#ff0000;
+    position: relative;
+    bottom: 1em;
+    left: 30vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

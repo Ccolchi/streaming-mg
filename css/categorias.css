@@ -1,0 +1,66 @@
+
+body{
+    background-color:black;
+}
+
+header .cabecera{
+    
+    /* width: 90%;  */
+    /* display: flex;
+    justify-content: center;*/
+} *
+
+header .cabecera a{
+position: relative;
+top: 1.25em;
+left: 1.25em;
+color:red ;
+
+}
+.contenedor-principal .contenedor-series{
+   
+}
+
+.contenedor-carousel .carousel{
+    margin-right: 1.5em;
+    gap: .3em;
+}
+
+.contenedor-series .carousel-pagina-1,
+.contenedor-series .carousel-pagina-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5em;
+}
+
+.contenedor-recomendadas .contenedor-titulo h4{
+    color: white;
+}
+
+header .cabecera-titulo{
+    text-align: center;
+    color: white;
+}
+
+/*----------------paginacion--------------------*/
+.pagination a{
+    color: white;
+    padding: .5em;
+}
+
+.pagination a:hover,
+pagination a.active{
+    color:#ff0000;
+}
+
+.carousel-item .carousel-pagina-1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5em;
+}
+
+.carousel-item .carousel-pagina-2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .5em;
+}

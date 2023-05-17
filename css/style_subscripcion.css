@@ -1,0 +1,80 @@
+body {
+    background-image:url(../img/NETFLIX_123658.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.formulario{
+    background: rgba(0, 0, 0, 0.877);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 px rgba(0, 0, 0, 0.692);
+    
+    
+} 
+.ingresar {
+    background: darkred;
+    transition: 0,5s ease-in;
+
+    
+    
+
+}
+
+.olvide {color: #000000;
+text-decoration-line: none;
+text-align:center;
+cursor: pointer;
+text-shadow: none;}
+
+.olvide:hover{ color: white;
+cursor:pointer;
+text-decoration-line: none;
+text-align: center;}
+
+ .gambo{
+    text-overflow: ellipsis;
+    text-shadow:rgba(0, 0, 0, 0.468)
+ }
+
+.formulogin {
+    background: #ffffffe0;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
+.crearc
+{ background-color: rgb(255, 144, 9);
+ border-radius: 10px;
+
+}
+.casita-home{
+    transition: all 0.5 ease-in-out;
+    display: block;
+    transform: scale(1.3);
+
+
+}
+    
+
+
+
+.btn-suscribir, .btn-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: .3em;  
+    width: 10%;
+    height: 40px;
+    background-color: #5d5b5d96;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #fff;
+
+}
